@@ -4,7 +4,7 @@ body{
 	background-color: rgb(242,238,235);
 	text-align: center;
 	overflow-x: hidden;
-	margin: 0px;
+	margin: 0;
 	
 }
 
@@ -24,14 +24,14 @@ p{
 /* NAVBAR */
 .navBar{
 	width: 100%;
-	bottom: 0px;
+	bottom: 0;
 	position: fixed;
 	
 }
 
 .navBar ul{
 	list-style-type: none;
-	width: 100%
+	width: 100%;
 	background-color: rgb(0,85,74);
 	margin: 0;
 	padding: 0;
@@ -39,7 +39,7 @@ p{
 
 .navBar li{
 	display: inline-block;
-	bottom: 0px;
+	bottom: 0;
 	font-size: 2.5em;
 	width: 33%;
 }
