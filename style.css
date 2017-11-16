@@ -1,0 +1,85 @@
+/* GLOBAL */
+body{
+	line-height: 1.4em;
+	background-color: rgb(242,238,235);
+	text-align: center;
+	overflow: auto;
+	margin: 0;
+	
+}
+
+img{
+	padding-top: 200px;
+}
+
+/* NAVBAR */
+.navBar{
+	left: 0;
+	right: 0;
+	width: 100%;
+	bottom: 0px;
+	position: fixed;
+	
+}
+
+.navBar ul{
+	list-style-type: none;
+	width: 100%
+	background-color: rgb(0,85,74);
+	margin: 0;
+	padding: 0;
+}
+
+.navBar li{
+	display: inline-block;
+	bottom: 0px;
+	font-size: 18px;
+	width: 33%;
+}
+
+.navBar li a{
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	color: #fff;
+	margin: 0;
+	height: 1.4em;
+	padding-top: 0.3em;
+
+}
+
+/* NAVBAR KNAPPENE */
+
+#homelogo{
+	width: 25px;
+	height: auto;
+}
+#problem{
+	background-color: #00554A;
+
+}
+
+#solution{
+	background-color: #00695C;
+}
+
+#about{
+	background-color: #00554A;
+
+}
+
+#content{
+	overflow: scroll;
+	padding-top: 10px;
+	background-color: #fff;
+	margin: 0;
+	margin-top: 80px;
+	box-shadow: 10px 10px 5px #888;
+
+}
+
+.source{
+	padding-bottom: 20px;
+	text-align: left;
+	padding-left: 6em;
+}
