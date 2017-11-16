@@ -3,8 +3,8 @@ body{
 	line-height: 1.4em;
 	background-color: rgb(242,238,235);
 	text-align: center;
-	overflow: auto;
-	margin: 0;
+	overflow-x: hidden;
+	margin: 0px;
 	
 }
 
@@ -12,10 +12,17 @@ img{
 	padding-top: 200px;
 }
 
+h1{
+	font-size: 3em;
+}
+
+p{
+	padding-top: 20px;
+	font-size: 1.3em;
+}
+
 /* NAVBAR */
 .navBar{
-	left: 0;
-	right: 0;
 	width: 100%;
 	bottom: 0px;
 	position: fixed;
@@ -33,7 +40,7 @@ img{
 .navBar li{
 	display: inline-block;
 	bottom: 0px;
-	font-size: 18px;
+	font-size: 2.5em;
 	width: 33%;
 }
 
@@ -43,8 +50,8 @@ img{
 	width: 100%;
 	color: #fff;
 	margin: 0;
-	height: 1.4em;
-	padding-top: 0.3em;
+	height: 1.7em;
+	padding-top: 0.8em;
 
 }
 
