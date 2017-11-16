@@ -61,7 +61,7 @@ p{
 }
 
 .content{
-	overflow: scroll;
+	overflow: visible;
 	padding-top: 10px;
 	background-color: #fff;
 	margin: 0;
@@ -71,7 +71,7 @@ p{
 }
 
 .home{
-	width: 9%;
+	width: 2%;
 	background-color: rgb(0,105,92);
 
 }
